@@ -16,7 +16,7 @@ $(document).ready( () => {
             tasks.push(task.trimStart());
         });
 
-            // clear task text box and re-display tasks
+            // Clear task text box and re-display tasks
             textbox.val("");
             $("#task_list").val(tasks.join("\n"));
             textbox.focus();
