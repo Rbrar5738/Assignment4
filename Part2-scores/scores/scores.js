@@ -8,7 +8,7 @@ const displayScores = (scores, scoresString) => {
     }
     const scoreAvg = totalScore / scores.length;
   
-    //Displaying the data enetered scores textArea and acr_score Label
+    //Displaying the data enetered in scores textArea and acr_score Label
     $("#scores").val(scoresString.join("\n"));
     $("#avr_score").text(scoreAvg.toFixed(1));
 	
