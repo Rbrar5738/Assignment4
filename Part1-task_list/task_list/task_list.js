@@ -11,7 +11,7 @@ $(document).ready( () => {
             alert("Please enter a task.");
             textbox.focus();
         } else {
-            // add task to array with foreach loop and pushing into the tasks array
+            // Adding task to array with foreach loop and pushing into the tasks array
            task.forEach(task=>{ 
             tasks.push(task.trimStart());
         });
