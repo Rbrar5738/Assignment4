@@ -15,7 +15,7 @@ const displayScores = (scores, scoresString) => {
 };
 
 $(document).ready( () => {
-     // Intializing arrays for score values and strings
+     // Intializing arrays values for score and strings 
     const scores = [];
     const scoresString = [];
     $("#add_button").click( () => {
