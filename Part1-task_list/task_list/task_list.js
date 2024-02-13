@@ -5,7 +5,7 @@ $(document).ready( () => {
 
     $("#add_task").click( () => {   
         const textbox = $("#task");
-        // Splitting the entered value where comma (,) is found and storing in the task variable
+        // Splitting the entered value where comma (,) is found and storing in the task variable array
         const task = textbox.val().split(",");
         if (task === "") {
             alert("Please enter a task.");
